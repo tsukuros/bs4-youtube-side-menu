@@ -2,4 +2,26 @@
 
 body {
   font-family: Roboto, arial, sans-serif;
+  height: 1500px;
+}
+
+.bg-gray {
+  background-color: #e3e3e3;
+}
+
+header {
+  height: 56px;
+  box-shadow: 0 0 4px 4px #f3f3f3;
+  .search-box {
+    max-width: 640px;
+  }
+  .search-btn {
+    background-color: #f8f8f8;
+    &:hover {
+      background-color: #f0f0f0;
+      border-color: #c6c6c6;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, 0.10);
+      transition: none;
+    }
+  }
 }
