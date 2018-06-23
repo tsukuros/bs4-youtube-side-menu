@@ -4,11 +4,15 @@ body {
   font-family: Roboto, arial, sans-serif;
   height: 1500px;
 }
-
 .bg-gray {
   background-color: #e3e3e3;
 }
-
+.flex-grow-1 {
+  flex-grow: 1;
+}
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
 header {
   height: 56px;
   box-shadow: 0 0 4px 4px #f3f3f3;
@@ -23,5 +27,18 @@ header {
       box-shadow: 0 1px 0 rgba(0, 0, 0, 0.10);
       transition: none;
     }
+  }
+}
+main.content {
+  .video-thumbnail {
+    height: 118px;
+  }
+  .video-row-title,
+  .video-title,
+  .video-meta {
+    height: 20px;
+  }
+  .video-row-title {
+    width: 100px;
   }
 }
